@@ -7,7 +7,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 def connect_to_db():
-    return mysql.connector.connect(
+    return mysql.connector.connect( #change database connection to actual
         host="localhost",
         user="saeUser",
         password="password",
